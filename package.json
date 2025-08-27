@@ -7,6 +7,7 @@
     "dev": "cd ai-design-club && npm run dev",
     "build": "cd ai-design-club && npm run build",
     "build:client": "cd ai-design-club && npm run build",
+    "postinstall": "cd ai-design-club && npm install",
     "lint": "cd ai-design-club && npm run lint",
     "preview": "cd ai-design-club && npm run preview"
   },
