@@ -1,10 +1,10 @@
 [build]
   base = "/"
   publish = "ai-design-club/dist"
-  command = "npm run build:client"
+  command = "npm run setup && npm run build:client"
 
 [build.environment]
-  NODE_VERSION = "18"
+  NODE_VERSION = "20"
   NPM_FLAGS = "--legacy-peer-deps"
   
 [build.processing]
